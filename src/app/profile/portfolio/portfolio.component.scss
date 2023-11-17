@@ -1,0 +1,43 @@
+
+.cc-porfolio-image {
+    min-height: 200px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.modal-full-screen {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+
+    .modal-header {
+        padding-bottom: 24px;
+        border-bottom: 1px solid red;
+
+        button {
+            // top: auto;
+        }
+        .btn.btn-icon.btn-lg {
+            top: 8px;
+        }
+    }
+    .modal-title {
+        margin-top: 0px;
+    }
+    .modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .carousel .carousel-inner {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+     
+    .modal-body {
+        overflow-y: auto;
+    }
+}

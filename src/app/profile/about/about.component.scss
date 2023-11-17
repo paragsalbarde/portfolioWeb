@@ -1,0 +1,56 @@
+.row p {
+    color: #212529;
+    font-size: 1.25em;
+    line-height: 1.75;
+}
+.card-body ul {
+    padding-left: 20px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+#about {
+    padding: 120px 120px 0px;
+}
+
+#expEduSkill {
+    padding: 20px;
+}
+
+#expEduSkill .section {
+    padding: inherit;
+}
+
+#expEduSkill .tab-content {
+    min-height: 450px;;
+}
+
+
+@media screen and (max-width: 991px) {
+    #about {
+        padding: 100px 20px 0px;
+    }
+    #about .section {
+        padding: 70px 0px;
+    }
+    .section {
+        padding: 70px 0px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+#expEduSkill .nav-tabs {
+    display: inline-flex;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+}
+// #about .container .card .row .col-lg-6 {
+//     margin-left: auto;
+//     margin-right: auto;
+//   }

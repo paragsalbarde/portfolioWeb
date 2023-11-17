@@ -1,0 +1,13 @@
+<footer class="footer">
+  <div class="container">
+    <div class="button-container" >
+      <a class="btn btn-default btn-round btn-lg btn-icon" *ngFor="let urlDetail of remoteURLInfo" href={{urlDetail.url}}
+        target="_blank" rel="tooltip" title="Follow me on {{urlDetail.platform}}">
+        <i class="fa {{urlDetail.iconClass}}"></i>
+      </a>
+    </div>
+  </div>
+  <div class="text-center text-muted">
+      <p>&copy; Develope with Angular by Me!</p>
+  </div>
+</footer>

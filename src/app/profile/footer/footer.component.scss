@@ -1,0 +1,22 @@
+.footer .button-container {
+    text-align: center;
+    /* margin-top: -106px; */
+}
+.footer .button-container .btn.btn-icon.btn-lg {
+    border: 1px solid #202124;
+    border-radius: 90% 72% 70% 95% / 80% 80% 80% 95% !important;
+}
+
+.footer .button-container .btn.btn-icon.btn-lg:hover {
+    background-color: #fc0;
+    border-radius: 50% !important;
+    transition: 0.3s 0.3s,border-radius 0.3s,background-color 0.5s;
+}
+.footer .text-muted {
+    margin-top: 16px;
+}
+@media screen and (max-width: 768px) and (max-width: 991px) { 
+    .footer .text-muted {
+        margin-top: 16px;
+    }
+}

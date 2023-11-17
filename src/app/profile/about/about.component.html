@@ -1,0 +1,65 @@
+<div class="section" id="about">
+    <div class="container">
+      <!-- <div class="card" data-aos="fade-up" data-aos-offset="10"> -->
+        <div class="card">
+        <div class="row" *ngFor="let details of remoteAboutInfo">
+          <div class="col-lg-6 col-md-12">
+            <div class="h4 mt-0 title">About Me</div>
+              <p class="about-text">{{details.professional}}</p>
+              <!-- <ul>
+                <li>{{details.personal}}</li>
+                <li>{{details.professional}}</li>
+              </ul> -->
+              <div class="hireAndDownloadBtn">
+                <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor">Hire Me</a>
+                <a class="btn btn-primary" href={{cvUrl}} target="_blank" data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor">Download CV</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="section" id="expEduSkill">
+  <div class="container">
+    <div class="card">
+      <div class="row">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Skills</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="tab-content">
+          <div class="tab-pane active" id="tabs-1" role="tabpanel">
+            <app-experience></app-experience>
+          </div>
+          <div class="tab-pane" id="tabs-2" role="tabpanel">
+            <app-education></app-education>
+          </div>
+          <div class="tab-pane" id="tabs-3" role="tabpanel">
+            <app-skills></app-skills>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+
+
+
+
+
+  <!-- <app-experience></app-experience>
+  <app-education></app-education>
+  <app-skills></app-skills> -->

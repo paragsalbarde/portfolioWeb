@@ -1,0 +1,329 @@
+{
+    "about_me": [
+        {
+        "professional": "Started designing professionally as a freelancer. 7+ years of corporate experience as a Product UX Designer with a variety of projects from Retail, ECommerce, ERP and SaaS. Being a designer, my passion lies in creating designs for enhancing user experience in a user-centric design environment. Skilled Engineer and passionate designer, specialized in UI/UX design and development of engaging interactions.",
+        "personal": "An Engineer and a passionate designer.",
+        "resumeurl" : "https://docs.google.com/document/d/1WODFuhIzQw2AXPsjt6f3rs-EDWhdhT8s89fOTrGRh70/edit?usp=sharing",
+        "dob": "July 16, 1985",
+        "email": "parag.salbarde@gmail.com",
+        "phone": "+91 7276007787",
+        "address": "Amravati, Maharastra, India - 444607",
+        "languages": "English, Marathi, Hindi"
+      }
+    ],
+    "projects": [
+        {
+        "id": 1,
+        "title": "Conn-Veh",
+        "desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+        "livedemo": "https://mehulk05.github.io/MyShop/#/",
+        "githurl": "https://github.com/mehulk05/MyShop",
+        "mediumlink": "https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4",
+        "imgUrl": "assets/images/z1.png",
+        "tech": "Angular 10 , Google SpreadsheetApi"
+        },
+
+        {
+        "id": 2,
+        "title": "Amplitheatre",
+        "desc": "",
+        "livedemo": "https://mehulk05.github.io/Blogapp-using-MERN/#/",
+        "githurl": "https://github.com/mehulk05/Blogapp-using-MERN",
+        "mediumlink": "https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1",
+        "imgUrl": "assets/images/z26.png",
+        "tech": "React, Node, MongoDB, Express"
+        },
+
+        {
+        "id": 3,
+        "title": "TeleCure",
+        "desc": "",
+        "livedemo": "https://mehulk05.github.io/Blog-using-mean/#/",
+        "githurl": "https://github.com/mehulk05/Blog-using-mean",
+        "mediumlink": "https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c",
+        "imgUrl": "assets/images/z27.png",
+        "tech": "Angular 10, Node, MongoDB, Express"
+        },
+        {
+        "id": 4,
+        "title": "TeleCure Device",
+        "desc": "",
+        "livedemo": "https://chatapp-using-node.herokuapp.com/",
+        "githurl": "https://github.com/mehulk05/Chat-app-using-Nodejs",
+        "mediumlink": "https://medium.com/weekly-webtips/building-a-multiroom-chat-application-in-node-js-8a8adca5acf2",
+        "imgUrl": "assets/images/z23.png",
+        "tech": "Node JS,Socket IO"
+        },
+        {
+        "id": 5,
+        "title": "YouTube Learning",
+        "desc": "",
+        "livedemo": "https://mehulk05.github.io/Medium-Blog-On-React-App#/",
+        "githurl": "https://github.com/mehulk05/Medium-Blog-On-React-App",
+        "mediumlink": "https://javascript.plainenglish.io/how-to-add-medium-blogs-on-your-react-app-a3898a729aad",
+        "imgUrl": "assets/images/z4.png",
+        "tech": "React JS"
+        },
+        {
+        "id": 6,
+        "title": "News App using ReactJS (Parsing XML to JSON)",
+        "desc": "",
+        "livedemo": "https://mehulk05.github.io/NewsApp-using-React",
+        "githurl": "https://github.com/mehulk05/NewsApp-using-React",
+        "mediumlink": "https://codeburst.io/news-app-using-reactjs-f9752d7ab6ce",
+        "imgUrl": "assets/images/z24.png",
+        "tech": "React JS, XMl to JSON"
+        }
+    ],
+    "skills": [
+        {
+        "id": 1,
+        "skill": "Interface Design",
+        "progress": "85%",
+        "type": "Design"
+        },
+        {
+        "id": 2,
+        "skill": "Interaction Design",
+        "progress": "80%",
+        "type": "Design"
+        },
+        {
+        "id": 3,
+        "skill": "Wireframing",
+        "progress": "80%",
+        "type": "Design"
+        },
+        {
+        "id": 4,
+        "skill": "Prototyping",
+        "progress": "75%",
+        "type": "Design"
+        },
+        {
+        "id": 5,
+        "skill": "User Research",
+        "progress": "50%",
+        "type": "Design"
+        },
+        {
+        "id": 6,
+        "skill": "User Flow & User Journey Map",
+        "progress": "45%",
+        "type": "Design"
+        },
+        {
+        "id": 7,
+        "skill": "Design System",
+        "progress": "60%",
+        "type": "Design"
+        },
+        {
+        "id": 8,
+        "skill": "Responsive Web App",
+        "progress": "85%",
+        "type": "Design"
+        },
+        {
+        "id": 9,
+        "skill": "Usability Testing",
+        "progress": "45%",
+        "type": "Design"
+        },
+        {
+        "id": 11,
+        "skill": "Conversational UX",
+        "progress": "25%",
+        "type": "Design"
+        },
+        {
+        "id": 13,
+        "skill": "Adobe Illustrator",
+        "progress": "70%",
+        "type": "Tool"
+        },
+        {
+        "id": 14,
+        "skill": "Adobe Photoshop",
+        "progress": "60%",
+        "type": "Tool"
+        },
+        {
+        "id": 15,
+        "skill": "AxureRP Pro 10",
+        "progress": "70%",
+        "type": "Tool"
+        },
+        {
+        "id": 16,
+        "skill": "Figma",
+        "progress": "30%",
+        "type": "Tool"
+        },
+        {
+        "id": 17,
+        "skill": "Adobe XD",
+        "progress": "10%",
+        "type": "Tool"
+        },
+        {
+        "id": 18,
+        "skill": "Autodesk Sketchbook",
+        "progress": "70%",
+        "type": "Tool"
+        },
+        {
+        "id": 19,
+        "skill": "VS Code",
+        "progress": "70%",
+        "type": "Tool"
+        },
+        {
+        "id": 20,
+        "skill": "HTML5, CSS3",
+        "progress": "60%",
+        "type": "uiDev"
+        },
+        {
+        "id": 21,
+        "skill": "Bootstrap",
+        "progress": "80%",
+        "type": "uiDev"
+        },
+        {
+        "id": 22,
+        "skill": "React Bootstrap",
+        "progress": "50%",
+        "type": "uiDev"
+        },
+        {
+        "id": 22,
+        "skill": "Angular Material",
+        "progress": "50%",
+        "type": "uiDev"
+        },
+        {
+        "id": 23,
+        "skill": "Git",
+        "progress": "70%",
+        "type": "uiDev"
+        }
+       
+    ],
+
+    "educationData": [
+        {
+        "id": 1,
+        "from_to_year": "2014 - 2019",
+        "education": "Bachelor of Engineering",
+        "stream": "Information Technology",
+        "info": "Santa Gadge Baba Amravati University",
+        "institution": "ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD"
+        },
+        {
+        "id": 2,
+        "from_to_year": "2009 - 2014",
+        "education": "Technical Diploma",
+        "stream": "Information Technology",
+        "info": "Government Polytechnic, Amravati",
+        "institution": "ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD"
+        }
+    ],
+
+    "exprienceData":[
+        {
+        "id": 1,
+        "company": "IBM",
+        "location": "Mumbai",
+        "timeline": "August 2023 to Present",
+        "role": "UX DESIGNER"
+        },
+        {
+        "id": 2,
+        "company": "Capgemini Technology Services India Limited ",
+        "location": "Navi Mumbai",
+        "timeline": "July 2018 to August 2023",
+        "role": "UX DESIGNER"
+        },
+        {
+        "id": 3,
+        "company": "Jio InfoComm Ltd.",
+        "location": "Navi Mumbai",
+        "timeline": "Nov 2016 to June 2018",
+        "role": "UX DESIGNER"
+        },
+        {
+        "id": 4,
+        "company": "KloudData Labs",
+        "location": "Navi Mumbai",
+        "timeline": "Mar 2015 to Oct 2016",
+        "role": "UI DESIGNER"
+        }
+    ],
+
+    "extraCircularInfo": [
+        {
+        "id":1,
+        "title": "BBBBBBlogger",
+        "description": "",
+        "img": "assets/images/Parag Salbarde – Medium1.png",
+        "url": "https://mehulkothari05.medium.com/"
+        },
+        {
+        "id":1,
+        "title": "Github",
+        "description": "",
+        "img": "assets/images/Mehulkothari_github.png",
+        "url": "https://github.com/mehulk05/"
+        },
+        {
+        "id":1,
+        "title": "Freelancing",
+        "description": "",
+        "img": "assets/images/mehul_freelancing.png",
+        "url": "https://www.upwork.com/freelancers/~016d6f497a5629df4b"
+        }
+    ],
+
+    "socialURLs": [
+        {
+        "id": 2,
+        "platform": "LinkedIn",
+        "iconClass": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/paraagsalbarde/"
+        },
+        {
+        "id": 3,
+        "platform": "Behance",
+        "iconClass": "fa-behance",
+        "url": "https://www.behance.net/paragsalbarde"
+        },
+        {
+        "id": 4,
+        "platform": "Medium",
+        "iconClass": "fa-medium",
+        "url": "https://medium.com/@parag.salbarde"
+        },
+        {
+        "id": 5,
+        "platform": "Instagram",
+        "iconClass": "fa-instagram",
+        "url": "https://www.instagram.com/bindokparaag"
+        },
+        {
+        "id": 6,
+        "platform": "GitHub",
+        "iconClass": "fa-github",
+        "url": "https://github.com/paragsalbarde"
+        }
+    ],
+
+    "docURLs": [
+        {
+        "id": 1,
+        "platform": "Google Docs",
+        "iconClass": "fa-google",
+        "url": "assets/images/Resume ParagSalbarde_UXDesigner-Apr23.pdf"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+<div class="section" id="contact">
+    <!-- <div class="cc-contact-information" style="background-image: url('assets/images/contact.jpg');"> -->
+        <div class="cc-contact-information">
+        <div class="container">
+            <div class="cc-contact">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card mb-0" data-aos="zoom-in">
+                            <div class="card-header">
+                                <div class="h4 text-center title">Contact Me</div>
+                            </div>
+                           
+                            <div class="card-body">
+                                        <div class="col-md-12">
+                                        <form name="form" (ngSubmit)="f.form.valid ; f.resetForm()" #f="ngForm" novalidate>
+                                            <div class="group form-group">      
+                                                <input class="form-control" type="text" name="name" [(ngModel)]="model.name" #name="ngModel" [ngClass]="{ 'is-invalid': f.submitted && name.invalid }" required />
+                                                <span class="highlight"></span>
+                                                <span class="bar"></span>
+                                                <label>Name</label>
+                                             </div>
+
+                                             <div class="group form-group">      
+                                                <input class="form-control" type="text" name="subject" [(ngModel)]="model.subject" #subject="ngModel" [ngClass]="{ 'is-invalid': f.submitted && subject.invalid }" required />
+                                                <span class="highlight"></span>
+                                                <span class="bar"></span>
+                                                <label>Subject</label>
+                                             </div>
+
+                                             <div class="group form-group">      
+                                                <input class="form-control" type="text" name="email" [(ngModel)]="model.email" #email="ngModel" [ngClass]="{ 'is-invalid': f.submitted && email.invalid }" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required/>
+                                                <span class="highlight"></span>
+                                                <span class="bar"></span>
+                                                <label>E-mail</label>
+                                             </div>
+
+                                             <div class="form-group group">
+                                                <div class="text-group">
+                                                   <textarea class="form-control" name="message" [(ngModel)]="model.message" #message="ngModel" [ngClass]="{ 'is-invalid': f.submitted && message.invalid }" required></textarea>
+                                                   <label for="textarea" class="input-label">Message</label><i class="bar"></i>
+                                                </div>
+                                             </div>
+
+                                             <div class="row text-center">
+                                                <div class="col">
+                                                    <button class="btn btn-primary" type="submit">Send</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

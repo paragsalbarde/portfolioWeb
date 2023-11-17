@@ -1,0 +1,19 @@
+<h3>My Remote Projects</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+           <th scope="col">ID</th>
+           <th scope="col">Title</th>
+           <th scope="col">Desc</th>
+           <th scope="col">Demo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of remoteAboutInfo">
+            <th scope="row">{{data.professional}}</th>
+            <th>{{data.personal}}</th>
+            <th>{{data.dob}}</th>
+            <th>{{data.email}}</th>
+        </tr>
+    </tbody>
+</table>
